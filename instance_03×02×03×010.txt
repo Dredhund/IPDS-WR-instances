@@ -1,0 +1,99 @@
+The number of jobs:
+10
+The number of machines:
+3
+The number of vehicles:
+3
+The number of workers:
+2
+
+The processing time of each order processed on different machines:
+(where rows denote machines: 1 to 3 and columns denote orders: 1 to 
+10)
+37,31,26,31,39,20,27,24,40,36
+39,22,36,21,24,37,24,21,40,35
+33,30,37,26,24,25,35,36,21,39
+
+The coefficient of each worker on each machine:
+(where rows denote workers: 1 to 2 and columns denote machines: 1 to 
+3)
+1.25,1.5,1.5
+0.5,1,1.5
+
+The unit processing cost of machines:
+
+7,9,8
+
+The unit idle cost of machines:
+
+1,5,5
+
+The distance between each location:
+(where rows and columns denote locations: 0 to 10)
+0,98,102,104,82,102,101,63,119,106,68
+98,0,6,121,158,138,53,155,115,66,156
+102,6,0,119,163,137,58,160,112,72,158
+104,121,119,0,185,24,162,156,25,173,97
+82,158,163,185,0,179,132,39,201,127,115
+102,138,137,24,179,0,174,147,48,184,81
+101,53,58,162,132,174,0,142,161,14,169
+63,155,160,156,39,147,142,0,175,141,77
+119,115,112,25,201,48,161,175,0,174,121
+106,66,72,173,127,184,14,141,174,0,174
+68,156,158,97,115,81,169,77,121,174,0
+
+The weight of orders:
+14,18,10,18,15,19,18,13,11,17
+
+The unit tardiness penalty of orders:
+
+9,7,6,9,6,8,10,9,9,7
+
+The due date of orders:
+356,418,429,423,342,336,330,379,342,371
+
+the loading and unloading time of each order:
+4,5,3,5,4,5,5,3,3,4
+
+The sequence dependent setup time of each job processed on machine 1.
+(Where rows denote jobs: 1 to 10 and columns denote jobs: 0 to 10.For example:The value of Sijk is in row j,column i+1.)
+19,10,20,12,15,11,19,19,17,11
+18,16,11,12,11,15,15,12,11,18
+13,10,10,17,13,11,18,14,15,10
+18,10,13,20,15,15,19,10,17,20
+20,15,15,11,20,11,13,18,18,20
+14,13,16,15,11,15,13,16,17,14
+12,20,16,14,20,18,19,18,17,18
+11,10,11,10,20,11,20,16,20,16
+13,10,17,12,16,15,16,19,13,12
+12,13,11,18,11,14,12,10,13,11
+10,20,13,19,16,15,19,14,17,14
+
+The sequence dependent setup time of each job processed on machine 2.
+(Where rows denote jobs: 1 to 10 and columns denote jobs: 0 to 10.For example:The value of Sijk is in row j,column i+1.)
+12,10,18,16,20,20,18,11,10,10
+18,12,16,13,11,14,13,11,20,13
+10,17,16,19,18,19,15,18,10,13
+10,13,18,14,18,10,15,16,19,12
+16,13,13,18,10,18,13,19,17,16
+10,20,16,14,10,12,10,12,10,18
+20,15,15,10,14,11,20,10,15,12
+20,19,13,14,14,12,11,16,17,20
+20,12,20,13,17,16,13,13,19,19
+15,17,16,11,13,14,10,10,16,15
+19,20,15,12,18,13,11,11,16,20
+
+The sequence dependent setup time of each job processed on machine 3.
+(Where rows denote jobs: 1 to 10 and columns denote jobs: 0 to 10.For example:The value of Sijk is in row j,column i+1.)
+11,14,12,19,19,13,11,12,11,11
+18,10,12,15,11,12,12,18,12,12
+16,20,10,14,13,11,14,15,11,20
+14,17,19,18,13,16,17,19,16,19
+11,13,11,20,12,16,10,16,18,16
+18,17,17,11,14,11,20,12,15,12
+12,17,19,15,15,14,18,14,18,16
+12,13,13,16,11,16,20,15,11,16
+15,18,11,13,18,11,14,11,10,19
+10,11,11,19,12,14,17,10,18,20
+17,12,12,19,10,12,16,11,18,15
+

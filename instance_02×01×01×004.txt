@@ -1,0 +1,65 @@
+The number of jobs:
+4
+The number of machines:
+2
+The number of vehicles:
+1
+The number of workers:
+1
+
+The processing time of each order processed on different machines:
+(where rows denote machines: 1 to 2 and columns denote orders: 1 to 
+4)
+26,27,36,40
+35,24,31,34
+
+The coefficient of each worker on each machine:
+(where rows denote workers: 1 to 1 and columns denote machines: 1 to 
+2)
+1.5,0.75
+
+The unit processing cost of machines:
+
+7,7
+
+The unit idle cost of machines:
+
+5,5
+
+The distance between each location:
+(where rows and columns denote locations: 0 to 4)
+0,34,98,91,103
+34,0,130,107,135
+98,130,0,81,65
+91,107,81,0,135
+103,135,65,135,0
+
+The weight of orders:
+20,17,10,16
+
+The unit tardiness penalty of orders:
+
+9,7,9,8
+
+The due date of orders:
+181,166,190,165
+
+the loading and unloading time of each order:
+5,4,3,4
+
+The sequence dependent setup time of each job processed on machine 1.
+(Where rows denote jobs: 1 to 4 and columns denote jobs: 0 to 4.For example:The value of Sijk is in row j,column i+1.)
+13,11,14,12
+18,14,18,20
+20,12,13,17
+14,20,16,10
+13,11,10,18
+
+The sequence dependent setup time of each job processed on machine 2.
+(Where rows denote jobs: 1 to 4 and columns denote jobs: 0 to 4.For example:The value of Sijk is in row j,column i+1.)
+20,15,12,18
+10,18,13,18
+16,11,20,16
+20,15,14,13
+18,13,14,17
+
