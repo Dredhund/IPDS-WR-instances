@@ -1,0 +1,85 @@
+The number of factories:
+1
+The number of jobs:
+8
+The number of machines:
+2
+The number of vehicles:
+2
+The number of workers:
+1
+
+The factory where machine i is located:
+1,1
+
+The vehicle which belong to factory 1:
+1,2
+
+The processing time of each order processed on different machines:
+(where rows denote orders: 1 to 8 and columns denote machines: 1 to 
+2)
+30,32,21,37,33,38,25,24
+22,35,36,31,28,29,29,27
+
+The coefficient of each worker on each machine:
+(where rows denote workers: 1 to 1 and columns denote machines: 1 to 
+2)
+1.25,1.25
+
+The unit processing cost of machines:
+
+6,9
+
+The unit idle cost of machines:
+
+3,3
+
+The distance between each location:
+(where rows and columns denote locations from factory 1 to customers)
+0,187,104,143,200,27,113,95,28
+187,0,121,121,35,176,93,161,172
+104,121,0,39,150,112,109,149,110
+143,121,39,0,154,151,136,185,148
+200,35,150,154,0,185,93,156,182
+27,176,112,151,185,0,94,68,3
+113,93,109,136,93,94,0,68,91
+95,161,149,185,156,68,68,0,67
+28,172,110,148,182,3,91,67,0
+
+The weight of orders:
+17,17,17,12,11,18,11,12
+
+The unit tardiness penalty of orders:
+
+6,10,7,6,6,10,10,10
+
+The due date of orders:
+243,379,537,450,368,670,732,121
+
+the loading and unloading time of each order:
+4,4,4,3,3,5,3,3
+
+The sequence dependent setup time of each job processed on machine 1.
+(Where rows denote jobs: 1 to 8 and columns denote jobs: 0 to 8.For example:The value of Sijk is in row j,column i+1.)
+15,13,15,14,15,11,20,16
+17,15,17,12,11,12,15,19
+12,12,15,19,16,13,18,14
+17,17,10,16,14,12,12,14
+18,12,12,20,13,11,18,12
+13,20,12,16,16,11,19,12
+17,12,14,16,12,18,18,14
+19,15,14,18,12,14,17,12
+20,12,11,13,11,15,11,10
+
+The sequence dependent setup time of each job processed on machine 2.
+(Where rows denote jobs: 1 to 8 and columns denote jobs: 0 to 8.For example:The value of Sijk is in row j,column i+1.)
+13,16,14,15,19,14,19,13
+17,14,16,12,18,11,10,17
+12,15,16,14,10,12,10,16
+11,11,15,10,12,11,16,13
+14,17,12,12,11,18,17,12
+17,11,17,16,10,10,11,10
+19,14,13,17,18,16,12,20
+20,20,16,16,19,16,15,16
+18,12,12,13,10,13,18,17
+
